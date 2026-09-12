@@ -10,12 +10,16 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        User::create([
-            'name' => 'Admin',
-            'check_number' => 113926612,
-            'email' => 'admin@venueyangu.com',
-            'role' => 'Admin',
-            'password' => Hash::make('Admin@12345'),
-        ]);
+        User::updateOrCreate(
+            [
+                'check_number' => 11223344,
+            ],
+            [
+                'name' => 'Admin Midabangulo',
+                'email' => 'midabangulo@gmail.com',
+                'role' => 'Admin',
+                'password' => Hash::make('Admin@12345'),
+            ]
+        );
     }
 }
