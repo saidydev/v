@@ -11,6 +11,17 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $users = [
+
+            // ADMIN
+            [
+                'name' => 'Said Hassan Bessa',
+                'check_number' => 11223344,
+                'email' => 'saidydev@gmail.com',
+                'role' => 'Admin',
+                'password' => 'Saidydev@2014',
+            ],
+
+            // TEACHERS
             [
                 'name' => 'David Hossein Shekighenda',
                 'check_number' => 9536221,
@@ -18,6 +29,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Shekighenda@12345',
             ],
+
             [
                 'name' => 'Diana Daniel Kimaro',
                 'check_number' => 113487806,
@@ -25,6 +37,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Kimaro@12345',
             ],
+
             [
                 'name' => 'Elinisamehe Aminiel Yonaza',
                 'check_number' => 113490183,
@@ -32,6 +45,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Yonaza@12345',
             ],
+
             [
                 'name' => 'Jofrey Joseph Paulos',
                 'check_number' => 113496976,
@@ -39,6 +53,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Paulos@12345',
             ],
+
             [
                 'name' => 'Kulwa Mathias Bukwimba',
                 'check_number' => 112429461,
@@ -46,6 +61,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Bukwimba@12345',
             ],
+
             [
                 'name' => 'Nasoro Bakari Chedi',
                 'check_number' => 113553024,
@@ -53,6 +69,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Chedi@12345',
             ],
+
             [
                 'name' => 'Neema Julius Kayombo',
                 'check_number' => 113558277,
@@ -60,6 +77,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Kayombo@12345',
             ],
+
             [
                 'name' => 'Neema Tluway Tsere',
                 'check_number' => 113668615,
@@ -67,6 +85,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Tsere@12345',
             ],
+
             [
                 'name' => 'Samweli Elia Kitiku',
                 'check_number' => 113680348,
@@ -74,6 +93,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Kitiku@12345',
             ],
+
             [
                 'name' => 'SENI LUCAS KITIME',
                 'check_number' => 113487835,
@@ -81,6 +101,7 @@ class DatabaseSeeder extends Seeder
                 'role' => 'Teacher',
                 'password' => 'Kitime@12345',
             ],
+
             [
                 'name' => 'Zabdiel Buberwa Kamukulu',
                 'check_number' => 111666516,
