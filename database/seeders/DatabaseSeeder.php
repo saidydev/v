@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
             // ADMIN
             [
                 'name' => 'Said Hassan Bessa',
-                'check_number' => 11223344,
+                'check_number' => 113926612,
                 'email' => 'saidydev@gmail.com',
                 'role' => 'Admin',
                 'password' => 'Saidydev@2014',
